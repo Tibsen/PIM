@@ -8,7 +8,7 @@ function App() {
         <Container>
             <div className="App">
                 <Router>
-                    <Route path="/login" component={LoginPage}></Route>zizi
+                    <Route path="/login" component={LoginPage}></Route> ta grandmere
                 </Router>
             </div>
         </Container>
