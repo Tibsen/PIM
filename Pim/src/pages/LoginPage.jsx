@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {TextField} from "@mui/material";
 import { Button } from '@mui/material';
+import "./LoginPage.css"
 
 const LoginPage = () => {
     const [credentials, setCrentials] = useState({
@@ -16,7 +17,7 @@ const LoginPage = () => {
     }
     return (
         <form>
-            <div>
+            <div className='connexion'>
                 <TextField
                 id="identifier"
                 label="Username"
@@ -25,7 +26,7 @@ const LoginPage = () => {
                 onChange={handleChange}
                 />
             </div>
-            <div>
+            <div className='connexion'>
                 <TextField
                 id="password"
                 label="Password"
@@ -34,7 +35,10 @@ const LoginPage = () => {
                 onChange={handleChange}
                 />
             </div>
-            <div>
+            <div className='oublie'>
+                <a href=''>Identifiant oublié</a>
+            </div>
+            <div className='connexion'>
                 <Button variant="contained" color="primary" type="submit">
                     Login
                 </Button>
