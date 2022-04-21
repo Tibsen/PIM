@@ -1,11 +1,14 @@
 import React from "react";
-import { BrowserRouter as Route, Router } from "react-router-dom";
-import LoginPage from "./pages/LoginPage";
+import './App.css'
+import images from './images/images';
 
 function App() {
     return (
         <div>
-
+            <div className="header">
+                <h1>TITRE</h1>
+                <img src={images.logo} className="logo"></img>
+            </div>
         </div>
         
     );
