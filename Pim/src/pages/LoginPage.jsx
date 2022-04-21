@@ -11,10 +11,13 @@ const LoginPage = () => {
 
     const handleChange =({currentTarget}) => {
         console.log(currentTarget)
-        const value = currentTarget.value
-        const name = currentTarget.name
-        console.log(value,name)
+        const {value, name} = currentTarget
+        setCrentials({
+            ...credentials,
+            [name]: value
+        })
     }
+
     return (
         <form>
             <div className='connexion'>
