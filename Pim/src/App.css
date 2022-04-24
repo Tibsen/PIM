@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.header{
+  text-align: center;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: #FB2C48;
+  margin-left: 11%;
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+  color: #FB2C48;
+}
+
+.App{
+    margin-top: 5%;  
+}
+
+.colonne{
+  display: flex;
+  flex-direction: column;
+  size: 20px;
+}
+
+.creerbox{
+  margin-bottom: 3%;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button{
+  height: 60px;
+  border-radius: 40px;
+  width: 50%;
+  margin-left: 22% ;
+  background-color:#FB2C48;
+  margin-top: 10%;
+  border-color: #FB2C48;
+  color: white;
+}
+
+.logo{
+  height: 70%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top:15%;
+  margin-bottom: 2%;
+}
+
+.txt{
+  font-size: 10px;
+  color: #FB2C48;
+  margin-left: 20%;
+}
+
+.ou{
+  color:#FB2C48;
+  margin-left: 45% ;
+  margin-top: 10%;
+}
+
+.jpp{
+  color:#FB2C48;
+}
+
+.Se{
+  color:white;
+}
+
+.guncompte{
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.ahah{
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+}
