@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+/* import React, {useState} from 'react';
 import {TextField} from "@mui/material";
 import { Button } from '@mui/material';
-import "./LoginPage.css"
+import "./LoginPage.css" */
 
-const LoginPage = () => {
+/* const LoginPage = () => {
     const [credentials, setCrentials] = useState({
         identifier:"",
         password:""
@@ -50,5 +50,5 @@ const LoginPage = () => {
     );
 }
 
-export default LoginPage;
+export default LoginPage; */
 
